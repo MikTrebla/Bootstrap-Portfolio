@@ -1,0 +1,33 @@
+body {
+    background-color : gray;
+}
+
+.maincontent {
+    padding-top : 5%;
+}
+
+.navcontainer {
+    background-color :#4aaaa5;
+}
+h2 {
+    color : #4aaaa5;
+}
+
+.stickyfooter {
+    margin-top : 20%
+}
+
+a {
+    color : white;
+}
+
+button {
+    background-color : #4aaaa5;
+    color:white;
+}
+
+.contactform {
+    margin-top : 20px;
+    margin-bottom : 20px;
+}
+

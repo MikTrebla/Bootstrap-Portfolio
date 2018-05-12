@@ -1,0 +1,46 @@
+body {
+    font-family : Arial, Helvetica, sans-serif;
+    font-size : 18px;
+    background-color: burlywood;
+    width : 960px;
+}
+
+img {
+    float : left;
+    border-radius : 30px;
+    margin : 10px;
+}
+
+h1 {
+    text-align : center;
+    width : 150px;
+    background-color : cornflowerblue;
+    padding : 10px 0px 10px 0px;
+    float : left;
+}
+
+nav {
+    float : right;
+}
+
+.about, .portfolio {
+    padding : 0px 10px 0px 0px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+h3 {
+    text-align: center;
+    width :100px;
+    background-color : cornflowerblue;
+    padding : 10px 0px 10px 0px; 
+}
+
+.bio {
+    color : royalblue;
+    line-height : 50px;
+}

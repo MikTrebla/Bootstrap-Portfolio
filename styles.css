@@ -1,0 +1,4 @@
+#navbarText:not(:last-child):after {
+    content : '|';
+    
+}
