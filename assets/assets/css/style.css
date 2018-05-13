@@ -1,33 +1,60 @@
 body {
-    background-color : gray;
+    background : url('../images/concrete_seamless.png');
 }
 
 .maincontent {
     padding-top : 5%;
 }
 
+.stickyfooter {
+    margin-top : 20%;
+    padding-top : 20px;
+    border-top : 10px solid #4aaaa5;
+
+}
+
 .navcontainer {
-    background-color :#4aaaa5;
+    background-color: #4AAAA5;
+
+    width : 100%;
+}
+
+h1 {
+    background: #4aaaa5;
 }
 h2 {
     color : #4aaaa5;
-}
-
-.stickyfooter {
-    margin-top : 20%
 }
 
 a {
     color : white;
 }
 
+/* contacts */
+
 button {
     background-color : #4aaaa5;
     color:white;
 }
 
-.contactform {
-    margin-top : 20px;
-    margin-bottom : 20px;
+
+/* portfolio */
+
+.portfolio .portfolio-img {
+    position : relative;
+    float: left;
+    width : 100%;
+    padding : 15px 0;
 }
+.portfolio h3 {
+    position : absolute;
+    width : 100%;
+    bottom : 20px;
+    background-color : #4aaaa5;
+    color : white;
+    text-align: center;
+    padding : 0;
+}
+
+
 
